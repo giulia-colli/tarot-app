@@ -1,0 +1,47 @@
+
+  .tarot-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color: black;
+  }
+  
+  .tarot-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  }
+  .search-bar {
+    width: 300px; 
+    margin: 0 auto; 
+  }
+  
+  .search-bar input {
+    background-color: #f3e8ff; /* sfondo lilla chiaro */
+    border: 2px solid #a970ff; /* bordo viola chiaro */
+    border-radius: 8px;
+    padding: 10px 14px;
+    font-size: 16px;
+    color: #333;
+    transition: border 0.3s ease;
+  }
+  
+  .search-bar input:focus {
+    border-color: #7e3ff2;
+    outline: none;
+    box-shadow: 0 0 5px rgba(126, 63, 242, 0.5);
+  }
+  .card-img-original {
+    width: 100%;
+    height: auto;
+    max-height: 320px;
+    object-fit: contain; /* per mantenere le proporzioni senza tagliarla */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 12px 12px 0 0;
+  }
+  

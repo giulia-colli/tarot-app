@@ -1,0 +1,41 @@
+.home-box {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    padding: 30px; margin-top: 20px;
+    margin-bottom: 24px;
+    color: black;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+  }
+  
+  .home-box:hover {
+    transform: translateY(-5px);
+  }
+  
+  .home-box h3 {
+    
+    margin-bottom: 12px;
+  }
+  
+  .home-box p {
+    font-size: 17px;
+    margin-bottom: 16px;
+  }
+  
+  .home-box a.amazon-btn {
+    background-color: #000;
+    color: white;
+    padding: 10px 18px;
+    text-decoration: none;
+    border-radius: 8px;
+    transition:  0.3s ease;
+  }
+  
+  .home-box a.amazon-btn:hover {
+    background-color: #222;
+    color: white;
+  }
+  

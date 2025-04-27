@@ -1,0 +1,40 @@
+
+
+.navbar-glass {
+  
+
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid black;
+    
+    height: 80px;
+    
+    
+  }
+ 
+  
+  
+  .navbar-glass .nav-link,
+  .navbar-glass .navbar-brand,
+  .navbar-glass .dropdown-toggle,
+  .navbar-glass .dropdown-item,
+  .navbar-glass .text-light {
+    color: black !important;
+   
+  }
+  
+  .navbar-glass .btn {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar-glass .btn:hover {
+    background-color: rgb(136, 126, 126);
+  }
+  .nav-link{
+    margin-right: 2rem;
+  }
+ 
